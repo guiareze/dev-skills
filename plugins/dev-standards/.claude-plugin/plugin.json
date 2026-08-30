@@ -1,7 +1,7 @@
 {
   "name": "dev-standards",
   "description": "Padroes de codigo Java/Spring Boot/AWS, refinamento obrigatorio antes de codificar e disciplina de execucao para desenvolvimento assistido por IA.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "Guilherme Almeida Rezende",
     "url": "https://github.com/guiareze"
