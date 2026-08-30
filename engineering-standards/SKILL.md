@@ -1,33 +1,13 @@
 ---
 name: engineering-standards
-description: Use ao escrever, revisar ou planejar código Java/Spring Boot/AWS neste projeto — aplica padrões de clean code, SOLID, design patterns e versões de linguagem/framework aprovadas por este time.
+description: Padrões de desenvolvimento Java + Spring Boot + AWS — clean code, SOLID, design patterns, versões de linguagem e framework, arquitetura, persistência, resiliência e logs. Use ao escrever, revisar ou refatorar código Java ou Spring Boot (controllers, services, entidades JPA, DTOs, integrações REST, pom.xml, build.gradle, application.yml) e ao estruturar um projeto Java novo.
 ---
 
 # Padrões de Engenharia — Java + Spring Boot + AWS
 
-Regras de desenvolvimento a seguir em qualquer código Java/Spring Boot/AWS neste projeto. Não cobre testes, Definition of Done ou critérios de entrega — isso está em outra skill.
+Regras de desenvolvimento a seguir em qualquer código Java/Spring Boot/AWS neste projeto.
 
-## Planejamento obrigatório antes de codificar
-
-Nunca implementar direto. Toda solicitação de desenvolvimento passa primeiro por um plano mínimo, apresentado ao usuário antes de qualquer alteração de código.
-
-- O plano deve ser enxuto e proporcional à complexidade do pedido — o que será alterado/criado, arquivos/áreas impactadas, e a abordagem escolhida. Sem sobre-detalhar tarefas simples.
-- O plano deve indicar o agente mais apropriado para executar a tarefa, com base na complexidade real do pedido:
-  - **Sonnet**: tarefas do dia a dia, simples e diretas (ex.: ajustar um parâmetro, um `if/else`, um bugfix pontual).
-  - **Opus**: tarefas intermediárias (ex.: nova feature de porte médio, refatoração localizada, integração com um serviço já conhecido no projeto).
-  - **Fable**: tarefas complexas (ex.: mudança arquitetural, migração de versão, desenho de um novo módulo do zero).
-- Nunca escolher um agente acima do necessário para a complexidade real da tarefa — ex.: não usar Fable para alterar um parâmetro ou um `if/else` simples.
-- Sempre confirmar com o usuário se o plano e o agente indicado estão corretos antes de iniciar a implementação. Só prosseguir após a confirmação.
-
-## Disciplina de execução
-
-Regras de como a IA deve trabalhar ao implementar — valem em toda alteração de código.
-
-- **Escopo fechado**: alterar apenas o que o pedido exige. Não refatorar código não relacionado, não reformatar arquivos inteiros, não "melhorar de passagem". Se identificar algo que merece mudança fora do escopo, relatar ao usuário em vez de alterar.
-- **Não inventar API**: antes de usar um método, anotação ou recurso de biblioteca, validar que ele existe na versão declarada no `pom.xml`/`build.gradle`. Se a versão do projeto não suporta, dizer isso — não improvisar assinatura.
-- **Sem placeholder**: não entregar `// TODO implementar`, stub vazio ou método retornando `null` para completar depois. Se algo não puder ser implementado, declarar explicitamente em vez de deixar buraco no código.
-- **Verificar que compila** antes de declarar a tarefa concluída.
-- **Relatar com honestidade**: se algo do plano foi pulado, não funcionou ou ficou incompleto, dizer claramente. Não entregar como pronto o que não foi verificado.
+Fora do escopo desta skill: planejamento e refinamento da tarefa (skill `refinement`); disciplina de execução da IA (skill `execution-discipline`); testes, Definition of Done e critérios de entrega (skill futura).
 
 ## Versões e releases
 
