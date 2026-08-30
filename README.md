@@ -16,7 +16,7 @@ O plugin `dev-standards` reúne três skills complementares, que cobrem etapas d
 
 | Skill | Quando dispara | O que faz |
 |---|---|---|
-| **`refinement`** | Ao receber um pedido de desenvolvimento, **antes** de qualquer alteração de código | Exige um plano mínimo antes de codificar, dimensiona a complexidade da tarefa e indica o modelo mais apropriado (Sonnet / Opus / Fable), pedindo confirmação antes de implementar |
+| **`refinement`** | Ao receber um pedido de desenvolvimento, **antes** de qualquer alteração de código | Refinamento técnico completo: coleta os requisitos mínimos por tipo de demanda (endpoint, consumidor, produtor, integração, bugfix), analisa o impacto nos repositórios e monta um plano estruturado com complexidade, confiabilidade e modelo recomendado (Haiku / Sonnet / Opus / Fable). Aprovado o plano, registra-o como issue no GitHub com label e status *todo* |
 | **`engineering-standards`** | Ao escrever, revisar ou refatorar código Java/Spring Boot | Padrões de código: versões de Java e Spring Boot, clean code, SOLID, design patterns, arquitetura, configuração, logs e rastreabilidade, resiliência em integrações, persistência e AWS |
 | **`execution-discipline`** | Durante qualquer implementação, em qualquer linguagem | Guardrails de comportamento da IA: escopo fechado, ler e reusar o código existente, sem placeholder, não inventar API de biblioteca, não enfraquecer testes, confirmar breaking change, git só sob pedido, parar quando a tarefa cresce e relatar o resultado com honestidade |
 
@@ -86,7 +86,9 @@ dev-skills/
 │       ├── .claude-plugin/
 │       │   └── plugin.json       # manifesto do plugin
 │       └── skills/
-│           ├── refinement/SKILL.md
+│           ├── refinement/
+│           │   ├── SKILL.md
+│           │   └── references/   # checklists de coleta e template da issue
 │           ├── engineering-standards/SKILL.md
 │           └── execution-discipline/SKILL.md
 └── README.md
@@ -94,7 +96,6 @@ dev-skills/
 
 ## Roadmap
 
-- [ ] Fechar as decisões em aberto da skill `refinement` (mecanismo de troca de modelo)
 - [ ] Skill de testes, Definition of Done e critérios de entrega
 
 ## Licença

@@ -5,14 +5,14 @@
     "url": "https://github.com/guiareze"
   },
   "description": "Padroes de desenvolvimento e guardrails para uso do Claude Code em projetos Java + Spring Boot + AWS.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "plugins": [
     {
       "name": "dev-standards",
       "displayName": "Dev Standards - Java + Spring Boot + AWS",
       "source": "./plugins/dev-standards",
       "description": "Padroes de codigo Java/Spring Boot/AWS, refinamento obrigatorio antes de codificar e disciplina de execucao para desenvolvimento assistido por IA.",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "author": {
         "name": "Guilherme Almeida Rezende",
         "url": "https://github.com/guiareze"
