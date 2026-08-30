@@ -18,7 +18,7 @@ O plugin `dev-standards` reúne três skills complementares, que cobrem etapas d
 |---|---|---|
 | **`refinement`** | Ao receber um pedido de desenvolvimento, **antes** de qualquer alteração de código | Exige um plano mínimo antes de codificar, dimensiona a complexidade da tarefa e indica o modelo mais apropriado (Sonnet / Opus / Fable), pedindo confirmação antes de implementar |
 | **`engineering-standards`** | Ao escrever, revisar ou refatorar código Java/Spring Boot | Padrões de código: versões de Java e Spring Boot, clean code, SOLID, design patterns, arquitetura, configuração, logs e rastreabilidade, resiliência em integrações, persistência e AWS |
-| **`execution-discipline`** | Durante qualquer implementação, em qualquer linguagem | Guardrails de comportamento da IA: escopo fechado, sem código placeholder, não inventar API de biblioteca, verificar que compila e relatar o resultado com honestidade |
+| **`execution-discipline`** | Durante qualquer implementação, em qualquer linguagem | Guardrails de comportamento da IA: escopo fechado, ler e reusar o código existente, sem placeholder, não inventar API de biblioteca, não enfraquecer testes, confirmar breaking change, git só sob pedido, parar quando a tarefa cresce e relatar o resultado com honestidade |
 
 A ordem natural de uso é: **refinamento → padrões de código → disciplina na execução.**
 
