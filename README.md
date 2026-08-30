@@ -96,3 +96,7 @@ dev-skills/
 
 - [ ] Fechar as decisões em aberto da skill `refinement` (mecanismo de troca de modelo)
 - [ ] Skill de testes, Definition of Done e critérios de entrega
+
+## Licença
+
+[MIT](LICENSE) — uso livre, inclusive comercial, mantendo o aviso de copyright.

@@ -8,5 +8,6 @@
   },
   "homepage": "https://github.com/guiareze/dev-skills",
   "repository": "https://github.com/guiareze/dev-skills",
+  "license": "MIT",
   "keywords": ["java", "spring-boot", "aws", "clean-code", "solid", "standards"]
 }

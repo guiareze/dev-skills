@@ -18,6 +18,7 @@
         "url": "https://github.com/guiareze"
       },
       "repository": "https://github.com/guiareze/dev-skills",
+      "license": "MIT",
       "category": "productivity",
       "keywords": ["java", "spring-boot", "aws", "clean-code", "solid", "standards"]
     }
